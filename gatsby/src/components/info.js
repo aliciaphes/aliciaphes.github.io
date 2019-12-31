@@ -4,6 +4,7 @@ import {
   FaTwitter as Twitter,
   FaGithub as Github,
   FaEnvelope as Mail,
+  FaLinkedin as LinkedIn
 } from "react-icons/fa"
 
 export default function info() {
@@ -30,6 +31,9 @@ export default function info() {
         </a>
         <a className="mr-5 icon" href="mailto:pericia@gmail.com">
           <Mail />
+        </a>
+        <a className="mr-5 icon" href="https://linkedin.com/in/aliciapr">
+          <LinkedIn />
         </a>
       </div>
     </div>
