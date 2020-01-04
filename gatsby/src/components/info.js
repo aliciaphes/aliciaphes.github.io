@@ -4,14 +4,14 @@ import {
   FaTwitter as Twitter,
   FaGithub as Github,
   FaEnvelope as Mail,
-  FaLinkedin as LinkedIn
+  FaLinkedin as LinkedIn,
+  FaRegFilePdf as Resume
 } from "react-icons/fa"
 
 export default function info() {
   return (
     <>
     <div className="container">
-      <div className="my-5"></div>
       <div className="display-3" style={{ color: "#FF8A00" }}>
         <span style = {{color : "white"}}>Hello, I'm</span> <br />
         Alicia.
@@ -23,17 +23,20 @@ export default function info() {
       </div>
       <div className="h1 code mt-2 mb-3">{"}"}</div>
       <div className="h1 mt-5">
-        <a className="mr-5 icon" href="https://twitter.com/aleepay">
+        <a className="icon" target="_blank" rel="noopener noreferrer" href="https://twitter.com/aleepay">
           <Twitter />
         </a>
-        <a className="mr-5 icon" href="https://github.com/aliciaphes">
+        <a className="icon" target="_blank" rel="noopener noreferrer" href="https://github.com/aliciaphes">
           <Github />
         </a>
-        <a className="mr-5 icon" href="mailto:pericia@gmail.com">
+        <a className="icon" href="mailto:pericia@gmail.com">
           <Mail />
         </a>
-        <a className="mr-5 icon" href="https://linkedin.com/in/aliciapr">
+        <a className="icon" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/aliciapr">
           <LinkedIn />
+        </a>
+        <a className="icon" target="_blank" rel="noopener noreferrer" href="https://github.com/aliciaphes/Resume_AliciaPerez/blob/master/Resume_AliciaPerez.pdf">
+          <Resume />
         </a>
       </div>
     </div>
