@@ -14,7 +14,7 @@ export default function info() {
     <div className="container">
       <div className="display-3" style={{ color: "#FF8A00" }}>
         <span style = {{color : "white"}}>Hello, I'm</span> <br />
-        Alicia.
+        ALicia.
       </div>
       <div className="h1 code mt-4 mb-3">async {"{"}</div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
