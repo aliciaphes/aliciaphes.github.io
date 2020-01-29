@@ -20,10 +20,10 @@ export default function info() {
       <div className="h1 code mt-4 mb-3">fun outline(summary: String) {"{"}</div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
         Software engineer.
-        <br /> Working mostly as a front-end developer but have a passion for Android and Kotlin.
+        <br /> Working mostly on the web/front-end but have a passion for Android and Kotlin.
       </div>
       <div className="h1 code mt-2 mb-3">{"}"}</div>
-      <span className="text-muted text-justify info note">Yes, this would cause a compilation error</span>
+      <span className="text-muted text-justify info note">Yes, this snippet would cause a compilation error</span>
       <div className="h1 mt-5">
         <a className="icon" target="_blank" rel="noopener noreferrer" href="https://twitter.com/aleepay">
           <Twitter />
