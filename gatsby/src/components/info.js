@@ -4,8 +4,7 @@ import {
   FaTwitter as Twitter,
   FaGithub as Github,
   FaEnvelope as Mail,
-  FaLinkedin as LinkedIn,
-  FaRegFilePdf as Resume
+  FaLinkedin as LinkedIn
 } from "react-icons/fa"
 
 export default function info() {
@@ -36,9 +35,6 @@ export default function info() {
         </a>
         <a className="icon" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/aliciapr">
           <LinkedIn />
-        </a>
-        <a className="icon" target="_blank" rel="noopener noreferrer" href="https://github.com/aliciaphes/Resume_AliciaPerez/blob/master/Resume_AliciaPerez.pdf">
-          <Resume />
         </a>
       </div>
     </div>
